@@ -7,8 +7,8 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "vuepress-theme-vdoing",
-  description: '一个基于VuePress的 知识管理&博客 主题',
+  title: "BJTU Transfer",
+  description: '你的转学助手',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
@@ -24,7 +24,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '指南', link: '/pages/a2f161/', items: [
+        text: 'Why Transfer', link: '/pages/a2f161/', items: [
           { text: '主题初衷与诞生', link: '/pages/52d5c3/' },
           { text: '介绍', link: '/pages/a2f161/' },
           { text: '快速上手', link: '/pages/793dcb/' },
@@ -47,7 +47,7 @@ module.exports = {
         ]
       },
       {
-        text: '配置', link: '/pages/a20ce8/', items: [
+        text: '定位选校', link: '/pages/a20ce8/', items: [
           { text: '主题配置', link: '/pages/a20ce8/' },
           { text: '首页配置', link: '/pages/f14bdb/' },
           { text: 'front matter配置', link: '/pages/3216b0/' },
@@ -57,8 +57,8 @@ module.exports = {
           { text: '评论栏', link: '/pages/ce175c/' },
         ]
       },
-      { text: '资源', link: '/pages/db78e2/' },
-      { text: '案例', link: '/pages/5d571c/' },
+      { text: '申请材料', link: '/pages/db78e2/' },
+      { text: '申请流程', link: '/pages/5d571c/' },
       { text: '问答', link: '/pages/9cc27d/' },
       { text: '赞助', link: '/pages/1b12ed/' },
     ],
